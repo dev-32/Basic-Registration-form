@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <head>
+        <title>FORM (ByteFlip 16-Bit)</title>
+    </head>
+    <body>
+        <div class="header">
+        <h1 align="center">Registration Form</h1>
+        <p align="center">Complete the form below and press the submit button!</p>
+        </div>
+            <form class="form-data">
+                <div class="upper"></div>
+                <input type="text" id="fname" name="fname" placeholder="Full name" required>
+                <input type="text" id="faname" name="faname" placeholder="Father name" required>
+                <input type="email" id="mail" name="mail" placeholder="Your email address" required>
+                <input type="date" id="date-" name="date-" placeholder="Date of birth" required>
+                <input type="tel" id="phone" placeholder="Phone number (eg. 9696XXXXXX)" required maxlength="10">
+            </div>
+                <div class="lower">
+                <fieldset class="gender_">
+                <label for="gender">What is your gender?</label><br><br>
+                <input class="gen" type="radio" id="gender" name="gender" value="Male"><label class="gen">Male</label><br>
+                <input class="gen" type="radio" id="gender" name="gender" value="Female"><lablel class="gen">Female</label>
+                </fieldset>
+                </div>
+                <div class="id-card">
+                    <fieldset>
+                    <label for="id-c">Enter ID card number in given formate.</label><br>
+                    <br>
+                    <input class="id-c1" type="text" id="id-c" placeholder="#####" maxlength="5">
+                    <input class="id-c2" type="text" id="id-c" placeholder="###" maxlength="3">
+                    <input class="id-c3" type="text" id="id-c" placeholder="##" maxlength="2">
+                </fieldset>
+                </div>
+                <div class="file-choose">
+                    <fieldset>
+                    <label for="filec">Choose the file</label><br><br>
+                        <input type="file" class="file-c">
+                    </fieldset>
+                </div>
+            </form>
+            <div class="submit">
+                <fieldset class="sub">
+                <button>Submit</button>
+            
+            </div>
+    </body>
+</html>
